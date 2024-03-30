@@ -11,7 +11,18 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
+```mermaid
+flowchart TD;
+    A[Start Nível 0 - Escolha a Batalha 👾👽]
+    A --> C{Letosp};
+    A --> D{Jagost};
+    A -- Yes --> E[OK];
+    B -- Yes --> E[OK];
+    C --> F[Rethink];
+    F[Rethink] --> B{Dragao};
+    D --> B;
+    B -- No ----> g[End];
+```  
 ## Objetivo 🎯
  ***No meu caso*** - Rever conceitos básicos e novidades sobre lógica de programação.
 
