@@ -11,7 +11,28 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
+```mermaid
+flowchart TD;
+    A[Start Nível 0 XP - Escolha a Batalha]
+    A --> B{Letosp
+ 10 Fases de 1001 xp} -- YES --> H[VENCEU - NÍVEL RADIANTE];
+    A --> X[11000 XP] --> G
+B{Letosp 
+ 10 Fases de 1001 XP} -- NO --> C{JACOST
+ vencer 3 batalhas
+ 2000XP };
+    A --> C{JACOST
+ vencer 3 batalhas
+ 2000 XP };
+   C{JACOST
+ vencer 3 batalhas
+ 2000 XP } -- No --> A;
+     C{JACOST
+ vencer 3 batalhas 
+2000 XP } -- YES--> G{Octonex  4500 XP};
+    G -- YES --> H[VENCEU - NÍVEL RADIANTE];
+    G -- NO --> J[FIM DE JOGO - MORREU];
+```  
 ## Objetivo 🎯
  ***No meu caso*** - Rever conceitos básicos e novidades sobre lógica de programação.
 
