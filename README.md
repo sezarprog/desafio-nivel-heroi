@@ -16,6 +16,7 @@ flowchart TD;
     A[Start Nível 0 XP - Escolha a Batalha 👽👾🦑]
     A --> B{Letosp 👽
  10 Fases de 1001 xp} -- YES --> H[VENCEU - NÍVEL RADIANTE];
+    A --> X[11000 XP] --> G
 B{Letosp 👽
  10 Fases de 1001 XP} -- NO --> C{JACOST🤖
  vencer 3 batalhas
