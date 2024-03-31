@@ -13,9 +13,10 @@ graph TD;
 ```
 ```mermaid
 flowchart TD;
-    Z([HEROI - TAKUNTUD]);
+    Z((EU SOU O HEROI 
+TAKUNTUD));
     A[Start Nível 0 XP - Escolha a Batalha]
-    A --> B{Letosp👾
+    A --> B{Letosp
  10 Fases de 1001 xp} -- YES --> H[VENCEU - NÍVEL RADIANTE];
     A --> X[11000 XP] --> G
 B{Letosp 
