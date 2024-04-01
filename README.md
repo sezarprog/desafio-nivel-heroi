@@ -3,6 +3,7 @@
      <img  align="left" width="90px" src="https://blogger.googleusercontent.com/img/a/AVvXsEgzZVZOmv1rWKBM5vSV2KoRfNWhyuu8xyn2EPCr_fF7IXm7PmaCklvpZNkW6nnzzoRtbgFQlL4cDUKCw3Bqwg2ARfaQTslxQAufFV47h3ySUIS3N8C7MB1cNK_372zSTCjxj7S77aqa6Zl88EazldxcsrSnyJcSsHzPVjONCs5pV4eDUvez2Eox5mgTKtM"></ a>
     <span>Formação Lógica de Programação</span>
 </h1>
+## EXEMPLO DE UM FLUXOGRAMA BÁSICO EM MERMAID
 
 ```mermaid
 graph TD;
@@ -11,11 +12,12 @@ graph TD;
     B-->D;
     C-->D;
 ```
+## FLUXOGRAMA BÁSICO DO JOGO
 ```mermaid
 flowchart TD;
     Z((EU SOU O HEROI 
-TAKUNTUD));
-    A[Start Nível 0 XP - Escolha a Batalha]
+XXX));
+    A[Start Nível 0 XP - Escolha o Herói]
     A --> B{Letosp
  10 Fases de 1001 xp} -- YES --> H[VENCEU - NÍVEL RADIANTE];
     A --> X[11000 XP] --> G
@@ -71,4 +73,4 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"😊💙.
 
 ## O PROGRAMA
-> - Esta no arquivo **prog.js**
+> - [Esta no arquivo prog.js.](prog.js)
