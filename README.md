@@ -1,41 +1,41 @@
 <h1>
-    <a href="https://tenhaexito.blogspot.com/2024/03/imagens-projetos-dio.html">
-     <img  align="left" width="90px" src="https://blogger.googleusercontent.com/img/a/AVvXsEgzZVZOmv1rWKBM5vSV2KoRfNWhyuu8xyn2EPCr_fF7IXm7PmaCklvpZNkW6nnzzoRtbgFQlL4cDUKCw3Bqwg2ARfaQTslxQAufFV47h3ySUIS3N8C7MB1cNK_372zSTCjxj7S77aqa6Zl88EazldxcsrSnyJcSsHzPVjONCs5pV4eDUvez2Eox5mgTKtM"></ a>
+    <a href="[https://tenhaexito.blogspot.com/2024/03/imagens-projetos-dio.html](https://github.com/sezarprog/desafio-nivel-heroi/blob/54d2a3f6ab1100692a6bb088af747d8b8963e88c/logo%20logprog.webp)">
+     <img  align="left" width="90px" src="logo logprog.webp"></a>
     <span>Formação Lógica de Programação</span>
 </h1>
-## EXEMPLO DE UM FLUXOGRAMA BÁSICO EM MERMAID
+
+## FLUXOGRAMA BÁSICO DO JOGO
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-## FLUXOGRAMA BÁSICO DO JOGO
-```mermaid
 flowchart TD;
-    Z((EU SOU O HEROI 
+    Z((EU SOU O JOGADOR 
 XXX));
     A[Start Nível 0 XP - Escolha o Herói]
-    A --> B{Letosp
- 10 Fases de 1001 xp} -- YES --> H[VENCEU - NÍVEL RADIANTE];
-    A --> X[11000 XP] --> G
-B{Letosp 
- 10 Fases de 1001 XP} -- NO --> C{JACOST
- vencer 3 batalhas
- 2000XP };
-    A --> C{JACOST
- vencer 3 batalhas
- 2000 XP };
-   C{JACOST
- vencer 3 batalhas
- 2000 XP } -- No --> A;
-     C{JACOST
- vencer 3 batalhas 
-2000 XP } -- YES--> G{Octonex  4500 XP};
-    G -- YES --> H[VENCEU - NÍVEL RADIANTE];
-    G -- NO --> J[FIM DE JOGO - MORREU];
+    A --> B{Letosp 
+ 1000 XP Bonus} --> F
+    A --> C[Deve ter 3000 XP] --> E
+    A --> D{JACOST
+ 2000 XP Bonus} --> F
+   E{Octonex  4500 XP Bonus} --> G
+   E{Octonex  4500 XP Bonus} --> H
+   E{Octonex  4500 XP Bonus} --> I
+   E{Octonex  4500 XP Bonus} --> J
+   E{Octonex  4500 XP Bonus} --> K
+   F[OPONENTES / DESAFIOS] --> G
+   F[OPONENTES / DESAFIOS] --> H
+   F[OPONENTES / DESAFIOS] --> I
+   F[OPONENTES / DESAFIOS] --> J
+   F[OPONENTES / DESAFIOS] --> K
+   G((DINOREX
+ - 3000XP))
+   H((TETRAMONSTER
+ - 4000XP))
+   I((LEÃOTEG
+ - 5300XP))
+   J((MAX
+ - 6000XP))
+   K((SEPATUR
+ - 7000XP))
 ```  
 ## Objetivo 🎯
  ***No meu caso*** - Rever conceitos básicos e novidades sobre lógica de programação.
@@ -44,6 +44,10 @@ B{Letosp
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
 [![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=E94D5F)](https://git-scm.com/doc) 
 ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+---
+[Playcode](https://playcode.io/) - 
+[W3Schools](https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_nodejs)
 ---
 # 1️⃣ Desafio Classificador de nível de Herói
 
@@ -72,5 +76,5 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"😊💙.
 
-## O PROGRAMA
+## O CÓDIGO
 > - [Esta no arquivo prog.js.](prog.js)
